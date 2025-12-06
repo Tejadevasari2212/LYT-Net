@@ -31,7 +31,6 @@ Ranked #1 on FLOPS(G) (3.49 GFLOPS) and Params(M) (0.045M = 45k Params)
 
 
 ## 🆕 Updates
-- `06.12.2025` 🎉 Check out our paper accepted at WACV 2026: [**ISALux: Illumination and Segmentation Aware Transformer Employing Mixture of Experts for Low Light Image Enhancement**](https://arxiv.org/abs/2508.17885)!
 - `28.07.2025` ✨ Check out our new multimodal framework: [**ModalFormer: Multimodal Transformer for Low-Light Image Enhancement**](https://github.com/albrateanu/ModalFormer)! Paper and HF Demo coming soon!
 - `27.07.2025` 🤗 LYT-Net now has a new HuggingFace page! Check it out [here](https://huggingface.co/albrateanu/LYT-Net)! **HF Demo coming soon!** 
 - `09.05.2025` 📢 Check out our other works on [Low-light Image Enhancement](https://github.com/albrateanu/KANT) and [Image Denoising](https://github.com/albrateanu/AKDT)!
