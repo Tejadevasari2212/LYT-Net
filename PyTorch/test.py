@@ -83,8 +83,8 @@ def validate(model, dataloader, device, result_dir):
 
 def main():
     # Paths and device setup
-    test_low = 'data/LOLv1/Test/input'
-    test_high = 'data/LOLv1/Test/target'
+    test_low = "data/LOLv2/Test/input"
+    test_high = "data/LOLv2/Test/target"
     weights_path = 'best_model.pth'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -96,7 +96,7 @@ def main():
     print(f'Test loader: {len(test_loader)}')
 
     model = LYT().to(device)
-    model.load_state_dict(torch.load(weights_path, map_location=device))
+    
     print(f'Model loaded from {weights_path}')
 
     avg_psnr, avg_ssim = validate(model, test_loader, device, result_dir)
